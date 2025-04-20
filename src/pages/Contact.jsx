@@ -20,8 +20,4 @@ export default function Contact() {
             </form>
         </div>
     );
-    //TODO: When the user moves the cursor out of the field, they should get a notification that this field is required
-
-
-//TODO: When the user enters an email, they should receieve a notification that the email is valid or invalid
 }

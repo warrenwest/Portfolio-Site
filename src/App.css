@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: #282c34;
 }
 
 h1 {
@@ -65,4 +65,150 @@ h3 {
 
 .edit-icon {
   color: #fff;
+}
+
+.about-me-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.about-me-page h1 {
+  margin-bottom: 20px;
+  font-size: 7rem;
+}
+
+.bio {
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #444b58;
+  padding: 20px;
+  border: #fff 2px solid;
+  border-radius: 10px;
+}
+.developer-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 2px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+  background-color: #282c34;
+  color: #fff;
+}
+
+.contact-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+}
+
+.contact-page h1 {
+  margin-bottom: 20px;
+  font-size: 7rem;
+}
+
+.contact-form {
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #444b58;
+  padding: 20px;
+  border: #fff 2px solid;
+  border-radius: 10px;
+}
+
+.resume {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #444b58;
+  padding: 20px;
+  border: #fff 2px solid;
+  border-radius: 10px;
+}
+
+.resume a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.resume a:hover {
+  color: #66aaff;
+}
+
+.resume h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+.project-card {
+  background-color: #444b58;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.project-card h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: #66aaff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.project-card a:hover {
+  color: #fff;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.projects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
