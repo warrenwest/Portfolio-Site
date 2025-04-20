@@ -1,4 +1,3 @@
-// TODO: Create a contact page that allows the user to input an name, email, and message
 export default function Contact() {
     return (
         <div className="contact-page">

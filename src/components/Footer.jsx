@@ -1,17 +1,20 @@
-export default function Footer() {
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
+const Footer = () => {
     return (
-        <footer className="bg-gray-800 text-white py-4">
-                <div className="flex justify-center space-x-4 mt-2">
-                    <a href="https://github.com/warrenwest" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                        <i className="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/warren0west/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                        <i className="fab fa-linkedin"></i>
-                    </a>
-                    <a href="https://stackoverflow.com/users/30316253/warren" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
-                        <i className="fab fa-stack-overflow"></i>
-                    </a>
-                </div>
-        </footer>
-    );
+<div className="footer">
+                <a href="https://github.com/warrenwest" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                <FontAwesomeIcon icon={faGithub} size="2xl" />
+                </a>
+                <a href="https://www.linkedin.com/in/warren0west/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                <FontAwesomeIcon icon={faLinkedin} size="2xl" />
+                </a>
+                <a href="https://stackoverflow.com/users/30316253/warren" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+                <FontAwesomeIcon icon={faStackOverflow} size="2xl" />
+                </a>
+
+        </div>
+    )
 }
+export default Footer;

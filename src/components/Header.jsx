@@ -3,7 +3,7 @@ import Navigation from './Navigation';
 
 export default function Header() {
     return (
-        <header className="bg-secondary text-light text-center py-3">
+        <header className="header">
             <h1>Warren West</h1>
         <Navigation
             links={[

@@ -1,18 +1,18 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 10;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }
 
 body {
-  background-color: #282c34;
+  background-color: #BCAACA;
 }
 
 h1 {
   margin: 32px 0;
-  color: #fff;
+  color: #A4243B;
   font-size: 24px;
 }
 
@@ -72,7 +72,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color: #282c34;
+  background-color: #BCAACA;
 }
 
 .about-me-page h1 {
@@ -85,8 +85,8 @@ h3 {
   text-align: center;
   font-size: 18px;
   line-height: 1.5;
-  color: #fff;
-  background-color: #444b58;
+  color: #98A886;
+  background-color: #191923;
   padding: 20px;
   border: #fff 2px solid;
   border-radius: 10px;
@@ -100,15 +100,32 @@ h3 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.footer {
-  position: fixed;
-  bottom: 0;
+.header {
+  top: 0;
   left: 0;
   right: 0;
   text-align: center;
   padding: 10px;
-  background-color: #282c34;
-  color: #fff;
+  background-color: #98A886;
+  color: #191923;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #98A886;
+}
+
+.footer {
+  height: 80px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #98A886;
 }
 
 .contact-page {
@@ -116,7 +133,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color: #282c34;
+  background-color: #BCAACA;
 }
 
 .contact-page h1 {
@@ -129,8 +146,8 @@ h3 {
   text-align: center;
   font-size: 18px;
   line-height: 1.5;
-  color: #fff;
-  background-color: #444b58;
+  color: #191923;
+  background-color: #98A886;
   padding: 20px;
   border: #fff 2px solid;
   border-radius: 10px;
@@ -139,15 +156,13 @@ h3 {
 .resume {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-size: 18px;
   line-height: 1.5;
-  color: #fff;
-  background-color: #444b58;
+  color: #191923;
+  background-color: #BCAACA;
   padding: 20px;
-  border: #fff 2px solid;
-  border-radius: 10px;
 }
 
 .resume a {
@@ -167,7 +182,7 @@ h3 {
 }
 
 .project-card {
-  background-color: #444b58;
+  background-color: #191923;
   border-radius: 10px;
   padding: 20px;
   margin: 20px;
@@ -179,12 +194,12 @@ h3 {
   text-align: center;
   font-size: 1.5rem;
   margin-bottom: 10px;
-  color: #fff;
+  color: #C16200;
 }
 
 .project-card p {
   font-size: 1rem;
-  color: #fff;
+  color: #C16200;
   margin-bottom: 10px;
 }
 

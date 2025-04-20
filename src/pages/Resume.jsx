@@ -1,4 +1,3 @@
-// TODO: Create a resume page that leads to a link to download the portfolio
 export default function Resume() {
     return (
         <div className="resume">
